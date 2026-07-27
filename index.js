@@ -9,7 +9,7 @@ import userRouter from "./routes/user.route.js"
 import interviewRouter from "./routes/interview.route.js"
 const app=express()
 app.use(cors({
-    origin:"https://ai-mern-stack-back.onrender.com",
+    origin:"https://ai-mern-stack-se9y.vercel.app",
     credentials:true
 }))
 app.use(express.json())
